@@ -14,7 +14,7 @@
 
 # 🟢 Accessiblité
 
-* Le site est en ligne à cette adresse : **[lucasvaugrente.fr](https://www.lucasvaugrente.fr/)**.
+* Le site est en ligne à cette adresse : **[https://lucasvaugrente.github.io/]([https://www.lucasvaugrente.fr/](https://lucasvaugrente.github.io/))**.
 
 <br/>
 
