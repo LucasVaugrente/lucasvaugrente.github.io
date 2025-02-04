@@ -2,7 +2,7 @@ const Section_experiences = document.querySelector(".section-experiences");
 const dynamicStylesExperience = document.getElementById("experience-styles");
 const mediaQueryExperience = "@media screen and (max-width:950px) {";
 
-fetch('../data/experiences.json')
+fetch('https://lucasvaugrente.github.io/portfolio/data/experiences.json')
     .then(response => response.json())
     .then(data => {
         for (let index = 0; index < data.experiences.length; index++) {

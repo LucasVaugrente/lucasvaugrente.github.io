@@ -6,7 +6,7 @@ const blockFrontEnd = document.querySelector(".front");
 const blockSoftwareDev = document.querySelector(".software");
 const blockBackEnd = document.querySelector(".back");
 
-fetch('../data/skills.json')
+fetch('https://lucasvaugrente.github.io/portfolio/data/skills.json')
     .then(response => response.json())
     .then(data => {
         for (const type in data.skills) {

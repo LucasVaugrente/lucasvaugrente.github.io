@@ -8,7 +8,7 @@ const removeChilds = (parent) => {
     }
 };
 
-fetch('../data/projects.json')
+fetch('https://lucasvaugrente.github.io/portfolio/data/projects.json')
     .then(response => response.json())
     .then(data => {
         for (let index = 0; index < data.projects.length; index++) {
