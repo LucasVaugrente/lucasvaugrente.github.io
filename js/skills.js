@@ -6,7 +6,9 @@ const blockFrontEnd = document.querySelector(".front");
 const blockSoftwareDev = document.querySelector(".software");
 const blockBackEnd = document.querySelector(".back");
 
-fetch('https://lucasvaugrente.github.io/portfolio/data/skills.json')
+link_website = "https://lucasvaugrente.github.io/portfolio/";
+
+fetch(link_website + 'data/skills.json')
     .then(response => response.json())
     .then(data => {
         for (const type in data.skills) {
@@ -26,7 +28,7 @@ fetch('https://lucasvaugrente.github.io/portfolio/data/skills.json')
                 link.setAttribute("target", "_blank");
                 link.setAttribute("href", data.skills[type][index].link);
 
-                img.setAttribute("src", data.skills[type][index].image);
+                img.setAttribute("src", link_website + data.skills[type][index].image);
                 img.setAttribute("alt", "Logo " + data.skills[type][index].name);
                 img.setAttribute("title", data.skills[type][index].name);
                 img.setAttribute("width", "75");

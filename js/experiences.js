@@ -2,7 +2,9 @@ const Section_experiences = document.querySelector(".section-experiences");
 const dynamicStylesExperience = document.getElementById("experience-styles");
 const mediaQueryExperience = "@media screen and (max-width:950px) {";
 
-fetch('https://lucasvaugrente.github.io/portfolio/data/experiences.json')
+link_website = "https://lucasvaugrente.github.io/portfolio/";
+
+fetch(link_website + 'data/experiences.json')
     .then(response => response.json())
     .then(data => {
         for (let index = 0; index < data.experiences.length; index++) {
@@ -76,7 +78,7 @@ fetch('https://lucasvaugrente.github.io/portfolio/data/experiences.json')
 
             /* ########################## Image experience ########################## */
             let img = document.createElement("img");
-            img.setAttribute("src", data.experiences[index].image);
+            img.setAttribute("src", link_website + data.experiences[index].image);
             img.setAttribute("alt", "Image Experience");
 
             /* ########################## Background Image Projects Responsive ########################## */
@@ -87,7 +89,7 @@ fetch('https://lucasvaugrente.github.io/portfolio/data/experiences.json')
     
                 cssRules += `
                     .experience_${numproject}:before {
-                        background-image: url("${backgroundImage}");
+                        background-image: url("${link_website + backgroundImage}");
                     }
                 `;
             }

@@ -8,7 +8,9 @@ const removeChilds = (parent) => {
     }
 };
 
-fetch('https://lucasvaugrente.github.io/portfolio/data/projects.json')
+link_website = "https://lucasvaugrente.github.io/portfolio/";
+
+fetch(link_website + 'data/projects.json')
     .then(response => response.json())
     .then(data => {
         for (let index = 0; index < data.projects.length; index++) {
@@ -105,7 +107,7 @@ fetch('https://lucasvaugrente.github.io/portfolio/data/projects.json')
     
                 cssRules += `
                     .project_${numproject}:before {
-                        background-image: url("${backgroundImage}");
+                        background-image: url("${link_website + backgroundImage}");
                     }
                 `;
             }
@@ -122,10 +124,10 @@ fetch('https://lucasvaugrente.github.io/portfolio/data/projects.json')
 
             let video = document.createElement("video");
             let source = document.createElement("source");
-            source.src = data.projects[index].video;
+            
+            source.src = link_website + data.projects[index].video;
             source.type = "video/mp4"
             video.appendChild(source);
-
             video.setAttribute("autoplay", "");
             video.setAttribute("loop", "");
             video.volume = 0;
