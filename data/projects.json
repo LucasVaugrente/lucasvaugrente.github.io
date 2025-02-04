@@ -1,6 +1,29 @@
 {
     "projects": [
         {
+            "date": 2023,
+            "type_project": "Projet personnel",
+            "title": "Pixelart Gallery",
+            "description": "Ce site présente mon univers de pixel art, où chaque création est le fruit de ma passion pour le dessin en pixels. Entre créations orinigales et références à oeuvres déjà existantes, je partage ici mes œuvres et expérimentations. Ce site est disponible ici : <a class=\"link_projects\" href=\"https://lucasvaugrente.github.io/pixel_gallery/\" target=\"_blank\">lucasvaugrente.github.io/pixel_gallery</a>",
+            "languages": [
+                {
+                    "name": "HTML",
+                    "url": "https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"
+                },
+                {
+                    "name": "CSS",
+                    "url": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
+                },
+                {
+                    "name": "JavaScript",
+                    "url": "https://fr.wikipedia.org/wiki/JavaScript"
+                }
+            ],
+            "link_git": "https://github.com/LucasVaugrente/pixel_gallery",
+            "video": "../videos/pixelart_gallery.mp4",
+            "image": "../img/projects/pixelart_gallery.png"
+        },
+        {
             "date": 2022,
             "type_project": "Projet IUT",
             "title": "Alizon",
@@ -29,8 +52,7 @@
             ],
             "link_git": "https://github.com/8Paprika5/BUT-IUT-Lannion-2021_2024/tree/main/BUT2-2022_2023/Alizon",
             "video": "../videos/alizon.mp4",
-            "image": "../img/projects/fond_alizon.png",
-            "class": "video-al"
+            "image": "../img/projects/fond_alizon.png"
         },
         {
             "date": 2022,
@@ -53,8 +75,7 @@
             ],
             "link_git": "https://github.com/Luvey35/Site-Personnel",
             "video": "../videos/portfolio.mp4",
-            "image": "../img/projects/fond_portfolio.jpg",
-            "class": "video-pt"
+            "image": "../img/projects/fond_portfolio.jpg"
         },
         {
             "date": 2021,
@@ -69,8 +90,7 @@
             ],
             "link_git": "https://github.com/Luvey35/Yams",
             "video": "../videos/yams.mp4",
-            "image": "../img/projects/fond_yams.jpg",
-            "class": "video-yams"
+            "image": "../img/projects/fond_yams.jpg"
         },
         {
             "date": 2021,
@@ -93,8 +113,7 @@
             ],
             "link_git": "https://github.com/Luvey35/Site_KohFrais",
             "video": "../videos/kohfrais.mp4",
-            "image": "../img/projects/fond_kohfrais.jpg",
-            "class": "video-kf"
+            "image": "../img/projects/fond_kohfrais.jpg"
         },
         {
             "date": 2020,
@@ -113,8 +132,7 @@
             ],
             "link_git": "https://github.com/Luvey35/Labyrinthe",
             "video": "../videos/labyrinthe.mp4",
-            "image": "../img/projects/fond_labyrinthe.png",
-            "class": "img-laby"
+            "image": "../img/projects/fond_labyrinthe.png"
         }, 
         {
             "date": 2022,
@@ -133,8 +151,7 @@
             ],
             "link_git": "https://github.com/Luvey35/Space_Invaders",
             "video": "../videos/space_invaders.mp4",
-            "image": "../img/projects/fond_space_inv.png",
-            "class": "video-si"
+            "image": "../img/projects/fond_space_inv.png"
         }
     ]
 }

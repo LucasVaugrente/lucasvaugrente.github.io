@@ -91,6 +91,7 @@ ul {
     column-gap: var(--col-gap);
     list-style: none;
     margin-inline: auto;
+    position: relative;
   }
 
 ul::before {
@@ -101,6 +102,20 @@ ul::before {
     border-radius: calc(var(--line-w) / 2);
 }
 
+ul::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: calc(var(--line-w) * 4) solid transparent;
+    border-right: calc(var(--line-w) * 4) solid transparent;
+    border-top: calc(var(--line-w) * 6) solid var(--blue-background);
+    border-radius: 5px;
+}
+
 ul li:not(:last-child) {
     margin-bottom: var(--row-gap);
 }
@@ -108,6 +123,7 @@ ul li:not(:last-child) {
 ul li {
     grid-column: 2;
     margin-inline: 1.5rem;
+    margin-top: 30px;
     padding-bottom: 20px;
     grid-row: span 2;
     display: flex;
@@ -123,7 +139,7 @@ ul li .date {
     --dateH: 3rem;
     height: var(--dateH);
     margin-inline: calc(1.5rem * -1);
-  
+    
     text-align: center;
     background-color: var(--blue-background);
   
@@ -159,7 +175,7 @@ ul li .date::after {
     border: 0.3rem solid var(--blue-background);
     border-radius: 50%;
     top: 50%;
-  
+    background: var(--pink-background);
     transform: translate(50%, -50%);
     right: calc(100% + var(--col-gap) + var(--line-w) / 2);
 }
@@ -168,19 +184,7 @@ ul li .title,
 ul li .descr {
     padding: 0 20px;
 }
-  
-ul li .title::before,
-ul li .descr::before {
-    content: "";
-    position: absolute;
-    width: 90%;
-    height: 0.5rem;
-    background: rgba(0, 0, 0, 0.5);
-    left: 50%;
-    border-radius: 50%;
-    filter: blur(4px);
-    transform: translate(-50%, 50%);
-}
+
 
 ul li .title::before {
     bottom: calc(100% + 0.125rem);
@@ -268,3 +272,10 @@ ul li .descr::before {
         border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
     }
 }
+
+@media (max-width: 640px) {
+    ul::after {
+        left: 2px;
+    }
+}
+
