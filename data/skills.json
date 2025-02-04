@@ -3,121 +3,121 @@
         "software": [
             {
                 "name": "C",
-                "image": "../img/icones/languages/C.svg",
+                "image": "/img/icones/languages/C.svg",
                 "link": "https://fr.wikipedia.org/wiki/C_(langage)"
             },
             {
                 "name": "Python",
-                "image": "../img/icones/languages/Python.svg",
+                "image": "/img/icones/languages/Python.svg",
                 "link": "https://www.python.org/"
             },
             {
                 "name": "Java",
-                "image": "../img/icones/languages/Java.svg",
+                "image": "/img/icones/languages/Java.svg",
                 "link": "https://fr.wikipedia.org/wiki/Java_(langage)"
             },
             {
                 "name": "PHP",
-                "image": "../img/icones/languages/Php.svg",
+                "image": "/img/icones/languages/Php.svg",
                 "link": "https://fr.wikipedia.org/wiki/PHP#:~:text=PHP%3A%20Hypertext%20Preprocessor%2C%20plus%20connu,langage%20interpr%C3%A9t%C3%A9%20de%20fa%C3%A7on%20locale."
             },
             {
                 "name": "Bash",
-                "image": "../img/icones/languages/Bash.svg",
+                "image": "/img/icones/languages/Bash.svg",
                 "link": "https://fr.wikipedia.org/wiki/Bourne-Again_shell"
             },
             {
                 "name": "Docker",
-                "image": "../img/icones/languages/docker.png",
+                "image": "/img/icones/languages/docker.png",
                 "link": "https://www.docker.com"
             },
             {
                 "name": "JavaFX",
-                "image": "../img/icones/languages/JavaFX.svg",
+                "image": "/img/icones/languages/JavaFX.svg",
                 "link": "https://fr.wikipedia.org/wiki/JavaFX"
             },
             {
                 "name": "Android Studio",
-                "image": "../img/icones/languages/android_studio.png",
+                "image": "/img/icones/languages/android_studio.png",
                 "link": "https://developer.android.com/studio"
             },
             {
                 "name": "Git",
-                "image": "../img/icones/logo/Git.svg",
+                "image": "/img/icones/logo/Git.svg",
                 "link": "https://git-scm.com/"
             }
         ],
         "front": [
             {
                 "name": "HTML",
-                "image": "../img/icones/languages/Html.svg",
+                "image": "/img/icones/languages/Html.svg",
                 "link": "https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"
             },
             {
                 "name": "CSS",
-                "image": "../img/icones/languages/Css.svg",
+                "image": "/img/icones/languages/Css.svg",
                 "link": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
             },
             {
                 "name": "JavaScript",
-                "image": "../img/icones/languages/JavaScript.svg",
+                "image": "/img/icones/languages/JavaScript.svg",
                 "link": "https://fr.wikipedia.org/wiki/JavaScript"
             },
             {
                 "name": "Vue.JS",
-                "image": "../img/icones/languages/vuejs.png",
+                "image": "/img/icones/languages/vuejs.png",
                 "link": "https://vuejs.org"
             },
             {
                 "name": "React  ",
-                "image": "../img/icones/languages/react.png",
+                "image": "/img/icones/languages/react.png",
                 "link": "https://fr.legacy.reactjs.org/"
             },
             {
                 "name": "Bootstrap",
-                "image": "../img/icones/languages/Bootstrap.svg",
+                "image": "/img/icones/languages/Bootstrap.svg",
                 "link": "https://getbootstrap.com/"
             },
             {
                 "name": "JQuery",
-                "image": "../img/icones/languages/jquery.png",
+                "image": "/img/icones/languages/jquery.png",
                 "link": "https://jquery.com"
             },
             {
                 "name": "Git",
-                "image": "../img/icones/logo/Git.svg",
+                "image": "/img/icones/logo/Git.svg",
                 "link": "https://git-scm.com/"
             }
         ],
         "back": [
             {
                 "name": "Python",
-                "image": "../img/icones/languages/Python.svg",
+                "image": "/img/icones/languages/Python.svg",
                 "link": "https://www.python.org/"
             },
             {
                 "name": "NodeJS",
-                "image": "../img/icones/languages/nodejs.png",
+                "image": "/img/icones/languages/nodejs.png",
                 "link": "https://nodejs.org/en"
             },
             {
                 "name": "CodeIgniter",
-                "image": "../img/icones/languages/codeigniter.png",
+                "image": "/img/icones/languages/codeigniter.png",
                 "link": "https://codeigniter.com"
             },
             {
                 "name": "PHP",
-                "image": "../img/icones/languages/Php.svg",
+                "image": "/img/icones/languages/Php.svg",
                 "link": "https://fr.wikipedia.org/wiki/PHP#:~:text=PHP%3A%20Hypertext%20Preprocessor%2C%20plus%20connu,langage%20interpr%C3%A9t%C3%A9%20de%20fa%C3%A7on%20locale."
             },
             {
                 "name": "MySQL",
-                "image": "../img/icones/languages/MySQL.svg",
+                "image": "/img/icones/languages/MySQL.svg",
                 "link": "https://www.mysql.com/fr/"
             },
             {
                 "name": "PostgreSQL",
-                "image": "../img/icones/languages/PostgreSQL.png",
+                "image": "/img/icones/languages/PostgreSQL.png",
                 "link": "https://www.postgresql.org/"
             }
         ]

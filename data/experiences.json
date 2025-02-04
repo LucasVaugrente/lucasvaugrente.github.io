@@ -27,7 +27,7 @@
                     "url": "https://leafletjs.com/"
                 }
             ],
-            "image": "../img/experiences/mobil-inn.png" 
+            "image": "/img/experiences/mobil-inn.png" 
         },
         {
             "date": "2023",
@@ -52,7 +52,7 @@
                     "url": "https://vuejs.org"
                 }
             ],
-            "image": "../img/experiences/tac_economics.png" 
+            "image": "/img/experiences/tac_economics.png" 
         }
     ]
 }

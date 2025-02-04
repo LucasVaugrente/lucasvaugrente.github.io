@@ -20,8 +20,8 @@
                 }
             ],
             "link_git": "https://github.com/LucasVaugrente/pixel_gallery",
-            "video": "../videos/pixelart_gallery.mp4",
-            "image": "../img/projects/pixelart_gallery.png"
+            "video": "/videos/pixelart_gallery.mp4",
+            "image": "/img/projects/pixelart_gallery.png"
         },
         {
             "date": 2022,
@@ -51,8 +51,8 @@
                 }
             ],
             "link_git": "https://github.com/8Paprika5/BUT-IUT-Lannion-2021_2024/tree/main/BUT2-2022_2023/Alizon",
-            "video": "../videos/alizon.mp4",
-            "image": "../img/projects/fond_alizon.png"
+            "video": "/videos/alizon.mp4",
+            "image": "/img/projects/fond_alizon.png"
         },
         {
             "date": 2022,
@@ -74,8 +74,8 @@
                 }
             ],
             "link_git": "https://github.com/Luvey35/Site-Personnel",
-            "video": "../videos/portfolio.mp4",
-            "image": "../img/projects/fond_portfolio.jpg"
+            "video": "/videos/portfolio.mp4",
+            "image": "/img/projects/fond_portfolio.jpg"
         },
         {
             "date": 2021,
@@ -89,8 +89,8 @@
                 }
             ],
             "link_git": "https://github.com/Luvey35/Yams",
-            "video": "../videos/yams.mp4",
-            "image": "../img/projects/fond_yams.jpg"
+            "video": "/videos/yams.mp4",
+            "image": "/img/projects/fond_yams.jpg"
         },
         {
             "date": 2021,
@@ -112,8 +112,8 @@
                 }
             ],
             "link_git": "https://github.com/Luvey35/Site_KohFrais",
-            "video": "../videos/kohfrais.mp4",
-            "image": "../img/projects/fond_kohfrais.jpg"
+            "video": "/videos/kohfrais.mp4",
+            "image": "/img/projects/fond_kohfrais.jpg"
         },
         {
             "date": 2020,
@@ -131,8 +131,8 @@
                 }
             ],
             "link_git": "https://github.com/Luvey35/Labyrinthe",
-            "video": "../videos/labyrinthe.mp4",
-            "image": "../img/projects/fond_labyrinthe.png"
+            "video": "/videos/labyrinthe.mp4",
+            "image": "/img/projects/fond_labyrinthe.png"
         }, 
         {
             "date": 2022,
@@ -150,8 +150,8 @@
                 }
             ],
             "link_git": "https://github.com/Luvey35/Space_Invaders",
-            "video": "../videos/space_invaders.mp4",
-            "image": "../img/projects/fond_space_inv.png"
+            "video": "/videos/space_invaders.mp4",
+            "image": "/img/projects/fond_space_inv.png"
         }
     ]
 }
